@@ -332,7 +332,7 @@ class EasyLoading {
   }) {
     Widget w = _instance.errorWidget ??
         Icon(
-          Icons.clear,
+          Icons.cancel,
           color: EasyLoadingTheme.indicatorColor,
           size: EasyLoadingTheme.indicatorSize,
         );
